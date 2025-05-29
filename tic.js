@@ -53,6 +53,7 @@ reset.addEventListener('click', () => {
     Array.from(boxitems).forEach(element => {
         element.innerText = ""; 
     });
+    
         turn = "X"
 isgameover = false
     document.getElementsByClassName("turn")[0].innerText = "turn for " + turn;
